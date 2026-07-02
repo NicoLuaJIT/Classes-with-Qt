@@ -8,8 +8,7 @@
 #include <algorithm>
 #include <vector>
 
-class Texts : public QWidget
-{
+class Texts : public QWidget {
 private:
     QVBoxLayout *layout{new QVBoxLayout(this)};
     QLabel *label{new QLabel("Placeholder text...", this)};
